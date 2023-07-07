@@ -1,0 +1,144 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "~@flaticon/flaticon-uicons/css/all/all";
+
+:root {
+  --background-primary: #fafafa;
+  --background-secondary: #f8f8f8;
+  --background-third: #f3f3f3;
+
+  --foreground-primary: #101010;
+  --foreground-seconday: #1a1a1a;
+
+  --accent-primary: #ec1d3b;
+  --accent-secondary: #a51e23;
+
+  --validation-primary: #01ba61;
+  --validation-secondary: #00984f;
+  --error-primary: #f4482d;
+  --error-secondary: #cf402a;
+  --warning-primary: #fec756;
+  --warning-secondary: #eeb53d;
+
+  --utility-blue: #2988da;
+  --utility-blue-alt: #1e619a;
+  --utility-red: #f4482d;
+  --utility-red-alt: #ad3724;
+  --utility-yellow: #fec756;
+  --utility-yellow-alt: #a9802a;
+  --utility-lightblue: #27ceff;
+  --utility-lightblue-alt: #1e8aaa;
+  --utility-green: #01ba61;
+  --utility-green-alt: #007a3f;
+
+  --border-color: #d1d5db;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-primary: #101010;
+    --background-secondary: #1a1a1a;
+    --background-third: #202020;
+
+    --foreground-primary: #f0f0f0;
+    --foreground-seconday: #eef2f4;
+
+    --accent-primary: #ec1d3b;
+    --accent-secondary: #a51e23;
+
+    --validation-primary: #01ba61;
+    --validation-secondary: #00984f;
+    --error-primary: #f4482d;
+    --error-secondary: #cf402a;
+    --warning-primary: #fec756;
+    --warning-secondary: #eeb53d;
+
+    --utility-blue: #2988da;
+    --utility-blue-alt: #1e619a;
+    --utility-red: #f4482d;
+    --utility-red-alt: #ad3724;
+    --utility-yellow: #fec756;
+    --utility-yellow-alt: #a9802a;
+    --utility-lightblue: #27ceff;
+    --utility-lightblue-alt: #1e8aaa;
+    --utility-green: #01ba61;
+    --utility-green-alt: #007a3f;
+
+    --border-color: #3a3a3a;
+  }
+}
+
+body {
+  color: var(--foreground-primary);
+  background: var(--background-primary);
+}
+
+.button-blue {
+  background-color: var(--utility-blue);
+  color: var(--text-white);
+  transition: 0.2s ease;
+}
+
+.button-blue:hover {
+  background-color: var(--utility-blue-alt);
+}
+
+.button-red {
+  background-color: var(--utility-red);
+  color: var(--text-white);
+  transition: 0.2s ease;
+}
+
+.button-red:hover {
+  background-color: var(--utility-red-alt);
+}
+
+.button-yellow {
+  background-color: var(--utility-yellow);
+  color: var(--text-white);
+  transition: 0.2s ease;
+}
+
+.button-yellow:hover {
+  background-color: var(--utility-yellow-alt);
+}
+
+.button-lightblue {
+  background-color: var(--utility-lightblue);
+  color: var(--text-white);
+  transition: 0.2s ease;
+}
+
+.button-lightblue:hover {
+  background-color: var(--utility-lightblue-alt);
+}
+
+.button-green {
+  background-color: var(--utility-green);
+  color: var(--text-white);
+  transition: 0.2s ease;
+}
+
+.button-green:hover {
+  background-color: var(--utility-green-alt);
+}
+
+.box-bg {
+  background-color: var(--background-seconday);
+}
+
+.box-border {
+  border: 1px solid var(--border-color);
+}
+
+.input-bg {
+  background-color: var(--background-light);
+}
+
+.input {
+  background-color: var(--background-light);
+  border: 1px solid var(--border-color);
+  padding: 2.5px;
+  color: var(--text-dark);
+}
