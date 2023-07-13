@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 
 import NavBar from "@/components/admin/NavBar";
 import "./globals.css";
@@ -14,11 +14,11 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  const [sideMenuOpen, setSideMenuOpen] = useState(false);
+  // const [sideMenuOpen, setSideMenuOpen] = useState(false);
 
-  const handleSideMenuOpen = (value) => {
-    setSideMenuOpen(value);
-  };
+  // const handleSideMenuOpen = (value) => {
+  //   setSideMenuOpen(value);
+  // };
 
   return (
     <html lang="en">
