@@ -1,10 +1,8 @@
-// "use client";
 
 import NavBar from "@/components/admin/NavBar";
 import "./globals.css";
 import { Inter } from "next/font/google";
 import SideMenu from "@/components/admin/SideMenu";
-// import { useState } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,11 +12,6 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  // const [sideMenuOpen, setSideMenuOpen] = useState(false);
-
-  // const handleSideMenuOpen = (value) => {
-  //   setSideMenuOpen(value);
-  // };
 
   return (
     <html lang="en">
