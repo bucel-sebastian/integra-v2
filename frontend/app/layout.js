@@ -16,9 +16,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`flex flex-col w-full h-screen ${inter.className}`}>
-        <NavBar className="block" onSideMenuOpen={handleSideMenuOpen} />
+        <NavBar className="block" />
         <div className="flex w-full h-full">
-          <SideMenu sideMenuOpenProp={sideMenuOpen} />
+          <SideMenu  />
           <div className="flex-grow bg-backgroundPrimary">{children}</div>
         </div>
       </body>
