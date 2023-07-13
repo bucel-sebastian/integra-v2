@@ -1,10 +1,10 @@
 
 import NavBar from "@/components/admin/NavBar";
 import "./globals.css";
-import { Inter } from "next/font/google";
+// import { Inter } from "next/font/google";
 import SideMenu from "@/components/admin/SideMenu";
 
-const inter = Inter({ subsets: ["latin"] });
+// const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Create Next App",
@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
-      <body className={`flex flex-col w-full h-screen ${inter.className}`}>
+      <body className={`flex flex-col w-full h-screen`}>
         <NavBar className="block" />
         <div className="flex w-full h-full">
           <SideMenu  />
