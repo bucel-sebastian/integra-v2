@@ -4,8 +4,7 @@ import Link from "next/link";
 import React from "react";
 import { useState, useEffect } from "react";
 
-export default function SideMenu(props) {
-  const { sideMenuOpenProp } = props;
+export default function SideMenu() {
 
   const [sideMenuOpen, setSideMenuOpen] = useState(false);
   const [acountantSubmenuOpen, setAcountantSubmenuOpen] = useState(false);

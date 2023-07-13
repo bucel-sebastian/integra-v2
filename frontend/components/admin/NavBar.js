@@ -3,10 +3,9 @@
 import Link from "next/link";
 import React from "react";
 import { useState } from "react";
-import Logo from "../logo";
+import Logo from "../Logo";
 
-export default function NavBar(props) {
-  const { sideMenuOpenProp } = props;
+export default function NavBar() {
 
   const [sideMenuOpen, setSideMenuOpen] = useState(false);
 
